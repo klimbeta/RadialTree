@@ -150,7 +150,7 @@ d3.json('movementHierarchy.json', function (error, treeData) {
       .append('circle')
       .attr('r', 1e-6)
       .style('fill', function (d) {
-        return d._children ? HAS_CHILDREN_COLOR : 'white';
+        return d._children ? HAS_CHILDREN_COLOR : 'Green';
       });
 
     nodeEnter
@@ -177,10 +177,10 @@ d3.json('movementHierarchy.json', function (error, treeData) {
       .select('circle')
       .attr('r', NODE_DIAMETER * reduceZ())
       .style('fill', function (d) {
-        return d._children ? HAS_CHILDREN_COLOR : 'white';
+        return d._children ? HAS_CHILDREN_COLOR : 'Orange';
       })
       .attr('stroke', function (d) {
-        return d.selected ? SELECTED_COLOR : 'steelblue';
+        return d.selected ? SELECTED_COLOR : 'Green';
       })
       .attr('stroke-width', function (d) {
         return d.selected ? 3 : 1.5;

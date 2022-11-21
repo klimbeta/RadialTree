@@ -106,7 +106,7 @@ svg {
   cursor: pointer;
 }
 .node circle {
-  fill: #fff;
+  fill: Green;
 }
 .node text {
   font-size: 6px;
