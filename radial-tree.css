@@ -110,7 +110,7 @@ svg {
 }
 .node text {
   font-size: 12px;
-  font-family: Roboto, sans-serif;
+  font-family: Arial;
   text-shadow: 4px 4px 3px white, -4px -4px 3px white;
 }
 .node text:hover {
