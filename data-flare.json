@@ -1,0 +1,256 @@
+{
+  "name": "Root",
+  "children": [
+    {
+      "name": "LimitedDimensionMovement",
+      "children": [
+        {
+          "name": "1DimensionalMovement",
+          "children": [
+            {
+              "name": "1DimensionalDynamicMovement",
+              "children": []
+            },
+            {
+              "name": "1DimensionalStaticMovement",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "2DimensionalMovement",
+          "children": [
+            {
+              "name": "2DimensionalDynamicMovement",
+              "children": [
+                {
+                  "name": "2DimensionalAbsorb",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "2DimensionalStaticMovement",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "3DimensionalMovement",
+          "children": [
+            {
+              "name": "3DimensionalDynamicMovement",
+              "children": [
+                {
+                  "name": "3DimensionalAbsorb",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "3DimensionalStaticMovement",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "4DimensionalMovement",
+          "children": [
+            {
+              "name": "4DimensionalDynamicMovement",
+              "children": [
+                {
+                  "name": "4DimensionalMovement",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "4DimensionalStaticMovement",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Abduction",
+      "children": [
+        {
+          "name": "ArmAbduction",
+          "children": [
+            {
+              "name": "ArmVerticalAbduction",
+              "children": []
+            },
+            {
+              "name": "ArmHorizontalAbduction",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "LegAbduction",
+          "children": [
+            {
+              "name": "LegHorizontalAbduction",
+              "children": []
+            },
+            {
+              "name": "LegVerticalAbduction",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "FingerAbduction",
+          "children": []
+        },
+        {
+          "name": "DynamicAbduction",
+          "children": []
+        },
+        {
+          "name": "StaticAbduction",
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "Absorb",
+      "children": [
+        {
+          "name": "ArmAbsorb",
+          "children": []
+        },
+        {
+          "name": "BodyAbsorb",
+          "children": [
+            {
+              "name": "BodyRotateAbsorb",
+              "children": []
+            },
+            {
+              "name": "BodyTwistAbsorb",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "LegAbsorb",
+          "children": [
+            {
+              "name": "LegWhipAbsorb",
+              "children": []
+            },
+            {
+              "name": "LegArcAbsorb",
+              "children": []
+            },
+            {
+              "name": "LegKneeUpAbsorb",
+              "children": []
+            },
+            {
+              "name": "LegTangentAbsorb",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "HeadAbsorb",
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "Align",
+      "children": [
+        {
+          "name": "ArmAlign",
+          "children": []
+        },
+        {
+          "name": "LegAlign",
+          "children": []
+        },
+        {
+          "name": "BodyAlign",
+          "children": []
+        },
+        {
+          "name": "SpineAlign",
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "Arch",
+      "children": [
+        {
+          "name": "ArmArch",
+          "children": []
+        },
+        {
+          "name": "LegArch",
+          "children": []
+        },
+        {
+          "name": "BodyArch",
+          "children": [
+            {
+              "name": "BodyAnteriorArch",
+              "children": []
+            },
+            {
+              "name": "BodyLateralArch",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "SpineArch",
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "Brachiation",
+      "children": [
+        {
+          "name": "AnteriorBrachiation",
+          "children": []
+        },
+        {
+          "name": "PosteriorBrachiation",
+          "children": []
+        },
+        {
+          "name": "LateralBrachiation",
+          "children": []
+        },
+        {
+          "name": "RicochetBrachiation",
+          "children": []
+        },
+        {
+          "name": "180Brachiation",
+          "children": [
+            {
+              "name": "180DynamicBrachiation",
+              "children": []
+            },
+            {
+              "name": "180StaticBrachiation",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Brush",
+      "children": []
+    }
+  ]
+}
