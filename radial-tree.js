@@ -1,5 +1,5 @@
 // Get JSON data
-d3.json('data-flare.json', function (error, treeData) {
+d3.json('movementHierarchy.json', function (error, treeData) {
   var DURATION = 700; // d3 animation duration
   var STAGGERN = 4; // delay for each node
   var STAGGERD = 200; // delay for each depth
