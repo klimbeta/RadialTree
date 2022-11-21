@@ -109,12 +109,12 @@ svg {
   fill: #fff;
 }
 .node text {
-  font-size: 12px;
+  font-size: 6px;
   font-family: Arial;
   text-shadow: 4px 4px 3px white, -4px -4px 3px white;
 }
 .node text:hover {
-  font-size: 1.2em;
+  font-size: 1em;
   transition: font-size 0.1s;
 }
 .node text:not(:hover) {
