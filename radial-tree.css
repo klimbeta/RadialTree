@@ -101,6 +101,7 @@
 #tree-container,
 svg {
   overflow: hidden;
+  background-color: gray;
 }
 .node {
   cursor: pointer;
@@ -109,9 +110,9 @@ svg {
   fill: Green;
 }
 .node text {
+  color: white;
   font-size: 6px;
   font-family: Arial;
-  text-shadow: 4px 4px 3px white, -4px -4px 3px white;
 }
 .node text:hover {
   font-size: 1.5em;
