@@ -3,8 +3,8 @@ d3.json('movementHierarchy.json', function (error, treeData) {
   var DURATION = 700; // d3 animation duration
   var STAGGERN = 4; // delay for each node
   var STAGGERD = 200; // delay for each depth
-  var NODE_DIAMETER = 4; // diameter of circular nodes
-  var MIN_ZOOM = 0.5; // minimum zoom allowed
+  var NODE_DIAMETER = 2; // diameter of circular nodes
+  var MIN_ZOOM = 0.1; // minimum zoom allowed
   var MAX_ZOOM = 10; // maximum zoom allowed
   var HAS_CHILDREN_COLOR = 'lightsteelblue';
   var SELECTED_COLOR = '#a00'; // color of selected node
@@ -177,13 +177,13 @@ d3.json('movementHierarchy.json', function (error, treeData) {
       .select('circle')
       .attr('r', NODE_DIAMETER * reduceZ())
       .style('fill', function (d) {
-        return d._children ? HAS_CHILDREN_COLOR : 'Orange';
+        return d._children ? HAS_CHILDREN_COLOR : 'LightBlue';
       })
       .attr('stroke', function (d) {
         return d.selected ? SELECTED_COLOR : 'Green';
       })
       .attr('stroke-width', function (d) {
-        return d.selected ? 3 : 1.5;
+        return d.selected ? 2 : 1;
       });
 
     node

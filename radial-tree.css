@@ -107,7 +107,7 @@ svg {
   cursor: pointer;
 }
 .node circle {
-  fill: Green;
+  fill: Purple;
 }
 .node text {
   color: white;
