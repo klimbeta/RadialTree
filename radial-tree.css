@@ -109,7 +109,7 @@ svg {
   fill: Green;
 }
 .node text {
-  font-size: 12px;
+  font-size: 6px;
   font-family: Arial;
   text-shadow: 4px 4px 3px white, -4px -4px 3px white;
 }

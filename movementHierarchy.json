@@ -2,7 +2,7 @@
   "name": "Root",
   "children": [
     {
-      "name": "LimitedDimensionMovement",
+      "name": "FUCKLimitedDimensionMovement",
       "children": [
         {
           "name": "1DimensionalMovement",
