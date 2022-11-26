@@ -611,82 +611,82 @@
           ]
         },
         {
-          "name": "Lock",
-          "children": [
-            { "name": "ArmLock", "children": [] },
-            { "name": "LegLock", "children": [] },
-            { "name": "FingerLock", "children": [] },
-            { "name": "BodyLock", "children": [] }
-          ]
-        },
-        {
           "name": "LimitedDimensionMovement",
           "children": [
             {
-              "name": "1DimensionalMovement",
+              "name": "1DMovement",
               "children": [
                 {
-                  "name": "1DimensionalDynamicMovement",
+                  "name": "1DDynamicMovement",
                   "children": []
                 },
                 {
-                  "name": "1DimensionalStaticMovement",
+                  "name": "1DStaticMovement",
                   "children": []
                 }
               ]
             },
             {
-              "name": "2DimensionalMovement",
+              "name": "2DMovement",
               "children": [
                 {
-                  "name": "2DimensionalDynamicMovement",
+                  "name": "2DDynamicMovement",
                   "children": [
                     {
-                      "name": "2DimensionalAbsorb",
+                      "name": "2DAbsorb",
                       "children": []
                     }
                   ]
                 },
                 {
-                  "name": "2DimensionalStaticMovement",
+                  "name": "2DStaticMovement",
                   "children": []
                 }
               ]
             },
             {
-              "name": "3DimensionalMovement",
+              "name": "3DMovement",
               "children": [
                 {
-                  "name": "3DimensionalDynamicMovement",
+                  "name": "3DDynamicMovement",
                   "children": [
                     {
-                      "name": "3DimensionalAbsorb",
+                      "name": "3DAbsorb",
                       "children": []
                     }
                   ]
                 },
                 {
-                  "name": "3DimensionalStaticMovement",
+                  "name": "3DStaticMovement",
                   "children": []
                 }
               ]
             },
             {
-              "name": "4DimensionalMovement",
+              "name": "4DMovement",
               "children": [
                 {
-                  "name": "4DimensionalDynamicMovement",
+                  "name": "4DDynamicMovement",
                   "children": [
                     {
-                      "name": "4DimensionalMovement",
+                      "name": "4DMovement",
                       "children": []
                     }
                   ]
                 },
                 {
-                  "name": "4DimensionalStaticMovement",
+                  "name": "4DStaticMovement",
                   "children": []
                 }
+              ]
+            },
+            {
+              "name": "Lock",
+              "children": [
+                { "name": "ArmLock", "children": [] },
+                { "name": "LegLock", "children": [] },
+                { "name": "FingerLock", "children": [] },
+                { "name": "BodyLock", "children": [] }
               ]
             }
           ]
