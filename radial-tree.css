@@ -101,21 +101,22 @@
 #tree-container,
 svg {
   overflow: hidden;
-  background-color: gray;
+  background-color: #1f1f1f;
 }
 .node {
+  color:crimson;
   cursor: pointer;
 }
 .node circle {
   fill: Purple;
 }
 .node text {
-  color: white;
-  font-size: 6px;
+  color:crimson;
+  font-size: 4px;
   font-family: Arial;
 }
 .node text:hover {
-  font-size: 1.5em;
+  font-size: 1em;
   transition: font-size 0.1s;
 }
 .node text:not(:hover) {
@@ -124,6 +125,6 @@ svg {
 }
 .link {
   fill: none;
-  stroke: #ccc;
+  stroke: #28292a;
   stroke-width: 1.5px;
 }

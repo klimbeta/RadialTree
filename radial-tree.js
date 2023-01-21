@@ -3,7 +3,7 @@ d3.json('movementHierarchy.json', function (error, treeData) {
   var DURATION = 700; // d3 animation duration
   var STAGGERN = 4; // delay for each node
   var STAGGERD = 200; // delay for each depth
-  var NODE_DIAMETER = 2; // diameter of circular nodes
+  var NODE_DIAMETER = 1; // diameter of circular nodes
   var MIN_ZOOM = 0.1; // minimum zoom allowed
   var MAX_ZOOM = 10; // maximum zoom allowed
   var HAS_CHILDREN_COLOR = 'lightsteelblue';
@@ -201,7 +201,7 @@ d3.json('movementHierarchy.json', function (error, treeData) {
         );
       })
       .attr('fill', function (d) {
-        return d.selected ? SELECTED_COLOR : 'black';
+        return d.selected ? SELECTED_COLOR : '#e3e3e3';
       })
       .attr('dy', '.35em');
 
