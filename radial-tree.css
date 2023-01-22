@@ -104,7 +104,6 @@ svg {
   background-color: #1f1f1f;
 }
 .node {
-  color:crimson;
   cursor: pointer;
 }
 .node circle {
